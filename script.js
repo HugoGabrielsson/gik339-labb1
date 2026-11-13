@@ -17,8 +17,9 @@ var FloorBallTeam = "IBF Falun";
 
 /* Uppgift 2 
 1. 
-var kan användas överallt i koden, även utanför blocket. Men innan blev den undifined.
-let och const kan bara använas inom blocket där det skapdes.
+var kan användas även utanför blocket, inom samma funktion. Om jag skriver ut
+variabeln innan den får ett värde blir resultatet undefined.
+let och const kan bara användas inom blocket där de skapades.
 2.
 Om man använder console.log innan blocket ger var "undifined" och för let och const blir det error. 
 Använder man cosole.log i blcoket funger det för alla tre.
